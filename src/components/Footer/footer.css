@@ -1,0 +1,73 @@
+.gpt-footer {
+    position: relative;
+    top: 55rem;
+    padding: 2rem 4rem;
+    text-align: center;
+    color:white;
+    font-family: "Manrope";
+}
+.gpt-footer-details {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4rem;
+}
+.gpt-footer-p {
+    text-align: center;
+    padding: 2rem;
+    font-size: 13px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
+}
+.gpt-footer-details div p {
+    font-size: 11px;
+}
+.gpt-footer-section {
+    padding: 1.2rem 0;
+}
+.gpt-footer-section div {
+    margin: 2rem 0;
+}
+.gpt-footer-section div button {
+    width: 130px;
+    height: 35px;
+    background-color: #040c18;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Manrope';
+    font-size: 11px;
+}
+
+@media screen and (max-width:600px) {
+    .gpt-footer {
+        top: 20rem;
+    }
+    .gpt-footer-details {
+        gap: 25%;
+    }
+    .gpt-footer-details div p {
+        font-size: 10px;
+    }
+    @media screen and (max-width:450px) {
+        .gpt-footer-details {
+            gap: 25%;
+            flex-direction: column;
+            padding: 0;
+        }
+        .gpt-footer-details div {
+            margin: 20px 0;
+        }
+    }
+}
+@media screen and (max-width:290px) {
+    .gpt-footer-details {
+        gap: 35%;
+    }
+    .gpt-footer-details div p {
+        font-size: 9px;
+    }
+    .gpt-footer-p {
+        font-size: 10px;
+    }
+}

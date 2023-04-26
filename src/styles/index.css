@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+ }
+ :root {
+    --color-bg : #040c18;
+    --font-family: 'Man rope' san-serif;
+ }
+
+
+ body {
+    background-color: var(--color-bg);
+ }
